@@ -374,10 +374,14 @@ body {
     
     z-index: 1;
 }
+<<<<<<< HEAD
 .category-item-content:hover::after {
     width: 100px;
     transition: .3s all;
 }
+=======
+
+>>>>>>> 732ab1b94a0ee9ae13c297e5bc0cc39d7f10639f
 .category-item-content h3 {
     width: 200px;
     text-align: center;
@@ -391,16 +395,23 @@ body {
 }
 .category-item-content::after {
     content: "";
+<<<<<<< HEAD
     width: 0;
     height: 2px;
     background-color: #f2a;
     transition: .3s all;
 
+=======
+    width: 100px;
+    height: 2px;
+    background-color: #f2a;
+>>>>>>> 732ab1b94a0ee9ae13c297e5bc0cc39d7f10639f
 }
 .category-item-content span {
     font-size: 2.1rem;
     color: var(--white);
 }
+<<<<<<< HEAD
 
 .card { 
     --border-radius-parent: 5px;
@@ -460,3 +471,5 @@ body {
 .card-rate i {
     font-weight: 900 !important;
 }
+=======
+>>>>>>> 732ab1b94a0ee9ae13c297e5bc0cc39d7f10639f
