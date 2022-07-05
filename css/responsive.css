@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+    .topbar {
+        display: none;
+    }   
+    .navication {
+        display: block;
+        width: 100%;
+        padding: 0 0;
+        position: relative;
+        
+    }
+    .navication-list {
+        display: block;
+        
+        
+    }
+    .navication-list li {
+        display: block;
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .navication-btn {
+        position: absolute;
+        top: calc((69px - 52px) / 2);
+        padding: 10px 12px;
+        right: 0;
+        background-color: transparent;
+    }
+    .navication-btn i {
+        font-size: 3.2rem;
+        color: #000;
+    }
+    .navication-link:first-child {
+        display: none;
+    }
+
+    .navication-link {
+        display: block;
+        align-items: center;
+        padding: 0 20px;
+        line-height: 80px;
+        height: 80px;
+        position: relative;
+        
+    }
+
+    .navication-bar {
+        font-size: 3rem;
+    }
+    .navication-btn button {
+        display: none;
+    }
+}
