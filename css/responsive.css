@@ -1,55 +1,172 @@
 @media screen and (max-width: 768px) {
+    .fw90 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .category-head {
+        width: 100%;
+    }
+    .mg100 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .mg200 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
     .topbar {
         display: none;
-    }   
-    .navication {
-        display: block;
-        width: 100%;
-        padding: 0 0;
-        position: relative;
-        
     }
+
+    .navication {
+        z-index: 99999;
+        padding: 0;
+        position: relative;
+        background-color: var(--white);
+        height: 70px;
+        overflow: hidden;
+    }
+
     .navication-list {
         display: block;
-        
-        
+        z-index: 9999;
+
     }
+
+    .navication-link a {
+        display: block;
+    }
+
     .navication-list li {
         display: block;
-        width: 100%;
-        height: 70px;
-        line-height: 70px;
-        background-color: rgba(0, 0, 0, 0.2);
-    }
-    .navication-btn {
-        position: absolute;
-        top: calc((69px - 52px) / 2);
-        padding: 10px 12px;
-        right: 0;
-        background-color: transparent;
-    }
-    .navication-btn i {
-        font-size: 3.2rem;
-        color: #000;
-    }
-    .navication-link:first-child {
-        display: none;
+        padding: 0;
+        height: auto;
+        padding: 20px;
     }
 
-    .navication-link {
-        display: block;
+    .link-first {
+        display: none !important;
+    }
+
+    .navication-btn {
+        float: right;
+        top: 0;
+        right: 0;
+        position: absolute;
+        background: #000;
+        width: 50px;
+        height: 50px;
+        margin-top: calc((70px - 50px) / 2);
+        display: flex;
         align-items: center;
-        padding: 0 20px;
-        line-height: 80px;
-        height: 80px;
-        position: relative;
+        justify-content: center;
+        z-index: 999999999;
+
+    }
+
+    .navication-btn i {
+        color: #fff;
+
+        top: 0;
+        font-size: 3rem;
+    }
+
+    .navication-btn .btn {
+        display: none;
+
+    }
+
+    .btn {
+        width: 140px;
+        font-size: 1.2rem;
+    }
+
+
+
+    .indicator {}
+
+    .indicator-item {
+        border: 4px solid var(--white);
+        width: 25px;
+        height: 25px;
+    }
+
+    .carousel-content span {
+        font-size: 2rem;
+    }
+
+    .carousel-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-item img {
+        height: 100%;
+    }
+
+    .aboutUs {}
+
+    .aboutUs img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .about-text {
+        margin-top: 20px;
+    }
+
+    .category {
+
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .category .category-image {
+        width: 100%;
+    }
+
+    .card {
+        --width-parent: 100%;
+    }
+
+    .contact {
+        width: 100%;
+        height: 100%;
+    }
+    .contact-card {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info-list {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-form {
+
+    }
+    .contact-cardH, .contact-cardB {
+        width: 100%;
+    }
+    .team-item {
+        margin-bottom: 30px;
+    }
+
+    .testimonials {
         
     }
 
-    .navication-bar {
-        font-size: 3rem;
-    }
-    .navication-btn button {
-        display: none;
+    .blog {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
